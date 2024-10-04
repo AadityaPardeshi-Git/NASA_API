@@ -7,7 +7,7 @@
     },
     {
       "name": "nasa-api-backend",
-      "directory": "backend",
+      "directory": "Backend",
       "buildCommand": "npm run build",
       "outputDirectory": "dist"
     }
