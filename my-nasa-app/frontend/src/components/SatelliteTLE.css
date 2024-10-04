@@ -1,0 +1,76 @@
+/* SatelliteTLE.css */
+
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+}
+
+.satellite-container {
+    border: 2px solid #007bff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    background: linear-gradient(135deg, #e1f5fe, #bbdefb);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.satellite-container:hover {
+    transform: scale(1.02);
+}
+
+.satellite-container h2 {
+    color: #0277bd;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.satellite-container h2::before {
+    content: "🛰️"; /* Satellite icon */
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+.satellite-container p {
+    font-size: 1.1em;
+    margin: 5px 0;
+    color: #333;
+}
+
+.satellite-tle {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-wrap;
+    margin-top: 10px;
+    overflow-x: auto;
+    border-left: 4px solid #007bff;
+}
+
+.chart-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.chart {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.diagram {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: #ff5722; /* Color for the diagram */
+}

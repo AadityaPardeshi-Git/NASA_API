@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@react-google-maps/api": "^2.19.3",
+    "chart.js": "^4.4.4",
+    "cors": "^2.8.5",
+    "react-chartjs-2": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}
